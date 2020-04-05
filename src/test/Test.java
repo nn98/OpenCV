@@ -12,7 +12,7 @@ public class Test {
         //image container object
         Mat imageArray;
         //Read image from file system
-        imageArray=Highgui.imread("C:\\Users\\mesutpiskin\\sample.jpg");
+        imageArray=Highgui.imread("D:\\opencvTest\\sudoku00.png");
         //Get image with & height
         System.out.println(imageArray.rows());
         System.out.println(imageArray.cols());
